@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Cafe Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Demo Cafe</h1>
+  <p>QR-меню • без приложений</p>
+</header>
+
+<div class="lang">
+  <button onclick="setLang('ru')">RU</button>
+  <button onclick="setLang('kz')">KZ</button>
+</div>
+
+<section>
+  <h2 id="ramen-title">🍜 Рамен</h2>
+
+  <div class="item">
+    <img src="images/ramen1.jpg" alt="Острый рамен">
+    <div>
+      <h3 id="ramen1-name">Острый рамен</h3>
+      <p id="ramen1-desc">Бульон, лапша, яйцо</p>
+      <span>1900 ₸</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="images/ramen2.jpg" alt="Кимчи рамен">
+    <div>
+      <h3 id="ramen2-name">Кимчи рамен</h3>
+      <p id="ramen2-desc">Кимчи, мясо</p>
+      <span>2100 ₸</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="snacks-title">🍡 Закуски</h2>
+
+  <div class="item">
+    <img src="images/tokpokki.jpg" alt="Токпокки">
+    <div>
+      <h3 id="tokpokki-name">Токпокки</h3>
+      <p id="tokpokki-desc">Рисовые клецки</p>
+      <span>1700 ₸</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <button class="call">📞 Позвать официанта</button>
+  <p>Демо версия</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
